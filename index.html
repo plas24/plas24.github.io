@@ -292,26 +292,39 @@
 
 <!-- **************************** Invited Speakers **************************** -->
 
-<!-- <div class="row"> -->
-<!--   <div class="col-12"> -->
-<!--     <h2>Invited Speaker</h2> -->
-<!--   </div><div class="col-12 col-md-6"> -->
-<!--     <br/> -->
-<!--     <center><a href="https://www-sop.inria.fr/lemme/Tamara.Rezk/"><img class="rounded img-fluid thumb" src="images/person/thumbs/tamara.jpeg"/><br/>Tamara Rezk</a><br/> -->
-<!--     (INRIA)<br/><br/> -->
-<!--   <\!-- <p><b>Bio:</b> Elaine Shi is an Associate Professor at Carnegie Mellon University. Her research interests include cryptography, algorithms, and foundations of blockchains. Prior to CMU, she taught at the University of Maryland and Cornell University. She is a recipient of the Packard Fellowship, the Sloan Fellowship, the ONR YIP Award, the NSA best scientific cybersecurity paper award, and various other best paper awards.</p> -\-> -->
-<!--   </div> -->
-<!--   </center> -->
-<!-- <\!--    -->
-<!--   <div class="col-12 col-md-6"> -->
-<!--    <br/> -->
-<!--    <br/> -->
-<!--     <h3>Programming Cryptography without Programming Cryptography</h3> -->
-<!--    <br/> -->
-<!--    <br/> -->
-<!--    <p><b>Abstract.</b> Programming cryptographic systems is error-prone and scales poorly in terms of human expertise. Can we enable ordinary programmers to create distributed programs that correctly use cryptography without requiring them to have a Ph.D. degree in cryptography? I will talk about the challenges towards realizing this dream and progress in tackling them. In particular, I will describe our work that aims to solve two major challenges along the way: 1) how to automatically convert programs to representations (e.g. circuits) recognized by modern cryptographic protocols such as multi-party computation and zero-knowledge; and 2) how to automatically synthesize a cryptographic protocol from a user-level program enriched with security annotations?</p> -->
-<!--   </div>   -->
-<!-- <br/> -\-> -->
+<div class="row">
+  <div class="col-12">
+    <h2>Invited Speaker</h2>
+  </div>
+  <div class="col-12 col-md-3 cn">
+    <center class="inner"><a href="https://tashfernandes.github.io/"><img class="rounded img-fluid" src="images/person/thumbs/fernandes.png"/><br/>Natasha Fernandes</a><br/>
+    (Macquarie University)<br/><br/>
+  </center>
+  </div>
+  <div class="col-12 col-md-9";>
+   <br/>
+    <h3 text-align="left">Quantitative information flow reasoning for differential privacy</h3>
+   <p><b>Abstract.</b>
+     Quantitative information flow (QIF) is an information-theoretic framework for analysing information leaks from secure systems. In its current form, QIF derives from the g-leakage framework proposed by Geoffrey Smith (FOSSACS, 2009) and has developed into a powerful mathematical toolkit for the analysis of probabilistic systems.
+<br/>
+Differential privacy (DP) is the currently-accepted standard for privacy protection in the academic community, and has been adopted by industry giants such as Apple and Google. Despite intense research interest, there remain questions surrounding DP’s interpretability and how to manage the the fine-tuning of privacy so as to maximise utility, commonly called the "privacy-utility trade-off".
+<br/>
+In this talk I will discuss some recent work on how QIF has helped to shed light on these questions, and present some interesting challenges which remain to be addressed.
+   </p>
+  </div>
+  <div class="col-12 col-md-3 cn">
+    <center class="inner"><a href="https://binoyravindran.github.io"><img class="rounded img-fluid" src="images/person/thumbs/ravindran.jpg"/><br/>Binoy Ravindran</a><br/>
+    (Virginia Tech)<br/><br/>
+  </center>
+  </div>
+  <div class="col-12 col-md-9";>
+   <br/>
+    <h3 text-align="left">A Step Toward Trustworthy Binary Verification</h3>
+   <p><b>Abstract.</b> Many production software systems are available only in binary form. This is due to several reasons including intellectual property and proprietary issues, outdated and decaying build processes and environments, and third-party libraries and tools that are no longer available or backwards compatible. Security vulnerability analysis of such software is still a necessary task due to the need to rapidly patch program errors, especially those that can be used to create security exploits, i.e., unintended, or malicious behaviors or leak sensitive data. A large body of work has focused on this problem space including disassembly, decompilation, and binary verification, among others. A common denominator of these approaches is binary lifting: raw unstructured data is lifted to a form for reasoning over behavior and semantics. Majority of existing binary lifting approaches are untrustworthy (e.g., misses jump targets, misidentifies code as data), which negatively affects the trust base of techniques that rely on them.
+     <br>
+In this talk, I will present an approach for binary lifting that simultaneously disassembles, recovers control flow, and generates formal proofs on the correctness of the lifted representation and a class of sanity properties including return address integrity, bounded control flow, and calling convention adherence. Establishing these properties allows the binary to be lifted to a representation that contains an over-approximation of all possible execution paths of the binary. The lifted representation contains proof obligations that are sufficient to formally prove – by exporting to a theorem-prover – the sanity properties and correctness of the lifted representation, which removes the lifting algorithm and its implementation from the trust base. We apply this approach to Linux Foundation’s Xen Hypervisor covering about 400K instructions, providing evidence of its effectiveness and scalability for trustworthy binary lifting of off-the-shelf production software. I will argue that such a verified lifted representation not only reduces the trust base of downstream techniques (e.g., binary verification), but also exposes novel ways for reasoning about related problems (e.g., binary patching).</p>
+  </div>
+<br/>
 
 <!-- **************************** Call for papers **************************** -->
 
